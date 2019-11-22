@@ -1,0 +1,6 @@
+﻿# learnGit Day1
+### 代码记录
+1. git config --global user.name "name"
+2. git config --global user.email "email"
+3. pwd --查看当前文件路径
+4. git init --把这个目录变成Git可以管理的仓库
