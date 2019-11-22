@@ -4,3 +4,4 @@
 2. git config --global user.email "email"
 3. pwd --查看当前文件路径
 4. git init --把这个目录变成Git可以管理的仓库
+5. git checkout -- filrname   --想直接丢弃工作区的修改时使用
