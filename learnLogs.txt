@@ -1,10 +1,13 @@
 ﻿# learnGit Day1
 ### 代码记录
-1. git config --global user.name "name"
-2. git config --global user.email "email"
-3. pwd --查看当前文件路径
-4. git init --把这个目录变成Git可以管理的仓库
-5. git checkout -- filrname   --想直接丢弃工作区的修改时使
-6. git remote add origin git@server-name:path/repo-name.git  --关联远程库
-7. git push -u origin master   --第一次推送master分支所有内容
-8. git push origin master  --之后的推送使用这个即可
+1.  git config --global user.name "name"
+2.  git config --global user.email "email"
+3.  pwd --查看当前文件路径
+4.  git init --把这个目录变成Git可以管理的仓库
+5.  git checkout -- filrname   --想直接丢弃工作区的修改时使
+6.  git remote add origin git@server-name:path/repo-name.git  --关联远程库
+7.  git push -u origin master   --第一次推送master分支所有内容
+8.  git push origin master  --之后的推送使用这个即
+9.  git branch dev  --新建dev分支
+10. git checkout dev  --切换到dev分支
+11. git checkout -b dev  --新建并切换到dev分支,合并9,10的操作
