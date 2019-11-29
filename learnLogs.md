@@ -17,3 +17,7 @@
 15. git tag <tagname>  --新建一个标签名，默认为head，可以指定一个commit id
 16. git tag -a <tagname> -m "intraduce"  --指定标签信息
 17. git tag  --查看所有标签
+18. git push origin <tagname>  --推送一个本地标签到远程
+19. git push origin --tags  --推送全部未推送的标签到远程
+20. git tag -d <tagname>  --删除一个本地标签，似乎-d就是删除操作？
+21. git push origin :refs/tags/<tagname>  --删除一个远程标
