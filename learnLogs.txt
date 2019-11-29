@@ -11,5 +11,6 @@
 9.  git branch dev  --新建dev分支
 10. git checkout dev  --切换到dev分支
 11. git checkout -b dev  --新建并切换到dev分支,合并9,10的操
-12. git merge dev  --合并dev分支
+12. git merge dev  --合并dev分
 13. git branch -d dev  -- 删除dev分支
+14. git log --graph  --查看分支合并图
